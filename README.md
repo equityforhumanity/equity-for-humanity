@@ -1,5 +1,7 @@
 # Equity for Humanity
 
+Equity for Humanity is a proposed permanent public-benefit endowment designed to help every human being share in a growing portion of global prosperity through universal ownership.
+
 Static landing page for Equity for Humanity.
 
 - Live domain target: `equityforhumanity.org`
