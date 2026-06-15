@@ -1,0 +1,14 @@
+# Keep local safety backups/variants out of the public GitHub Pages repo
+*.before-*.html
+*.backup-*.html
+*.overwritten-backup-*.html
+*.variant-*.html
+index.final-v1*.html
+
+# macOS/editor noise
+.DS_Store
+*.swp
+*.tmp
+
+# Local notes can stay private unless intentionally published
+WORKING_NOTES.md
