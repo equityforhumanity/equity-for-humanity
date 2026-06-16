@@ -66,11 +66,15 @@
       padding:0 18px;border-radius:999px;text-decoration:none;font-weight:800;
       background:var(--ink);color:white;box-shadow:0 12px 30px rgba(23,51,34,.17);
       border:1px solid rgba(23,51,34,.08);
+      transition:color .18s ease,background .18s ease,border-color .18s ease,box-shadow .18s ease,transform .18s ease,filter .18s ease;
     }
+    .button:hover{transform:translateY(-1px);box-shadow:0 16px 34px rgba(23,51,34,.2)}
     .button.secondary{background:white;color:var(--ink);border:1px solid var(--line);box-shadow:none}
+    .button.secondary:hover{background:var(--soft);border-color:rgba(23,51,34,.28);box-shadow:0 10px 24px rgba(23,51,34,.08)}
     .links .button.secondary{min-height:36px;padding:0 13px;background:rgba(238,246,237,.74);color:#2f5d3d;border:1px solid rgba(137,168,111,.38);box-shadow:none}
     .links .button.secondary:hover{color:var(--ink);background:white;border-color:rgba(23,51,34,.32)}
     .button.gold{background:linear-gradient(135deg,#f0d994,#c99a3d);color:#24351f;border:0}
+    .button.gold:hover{filter:saturate(1.08) brightness(1.03);box-shadow:0 16px 34px rgba(201,154,61,.22)}
 
     .hero{padding:90px 0 70px;position:relative;overflow:hidden}
     .hero:before{content:"";position:absolute;left:46%;top:-180px;width:880px;height:880px;background:radial-gradient(circle,rgba(137,168,111,.28),transparent 62%);pointer-events:none}
@@ -181,8 +185,8 @@
       <a href="#principles">Principles</a>
       <a href="#mechanism">Mechanism</a>
       <a href="#recognition">Recognition</a>
-      <a href="#contact">Contact</a>
       <a class="button secondary" href="#next">Next steps</a>
+      <a href="#contact">Contact</a>
     </div>
   </nav>
 </header>
@@ -354,7 +358,7 @@
         <h3>Follow or get in touch</h3>
         <p>Equity for Humanity is looking for thoughtful collaborators, reviewers, and partners who can help sharpen the concept, assess risks, and explore practical next steps.</p>
         <div class="actions" style="margin-top:18px">
-          <a class="button gold" href="mailto:equityforhumanityfund@gmail.com">Email</a>
+          <a class="button secondary" href="mailto:equityforhumanityfund@gmail.com">Email</a>
           <a class="button secondary" href="https://x.com/Equity4Humanity" target="_blank" rel="noopener">Follow on X</a>
           <a class="button secondary" href="https://www.linkedin.com/in/equity-for-humanity/" target="_blank" rel="noopener">Find on LinkedIn</a>
         </div>
