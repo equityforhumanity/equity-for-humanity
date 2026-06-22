@@ -17,4 +17,11 @@ Static landing page for Equity for Humanity.
 
 ## Notes
 
-The many timestamped `index.before-*.html` backup files are intentionally ignored by git and should stay local unless deliberately archived elsewhere.
+Project documents are organized under `docs/`:
+
+- `docs/current/` — current concept brief, Word doc, and philosophy/scale note.
+- `docs/planning/` — app prompts and next-step planning.
+- `docs/setup/` — account and GitHub Pages setup notes.
+- `docs/archive/` — older document versions and timestamped local backups.
+
+Current key mechanism language: “When shared prosperity grows faster, people share more. When growth slows, the fund protects the future.”
