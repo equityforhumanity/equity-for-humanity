@@ -38,13 +38,13 @@ Equity for Humanity can remain universal without requiring everyone to claim imm
 
 > **Universal by right. Opt-in by choice. Progressive by use. Self-recycling by design.**
 
-People with greater need are more likely to claim early benefits. People who do not need the benefit may ignore it, donate it back, or allow it to recycle into the endowment.
+People with greater need are more likely to claim early benefits. People who do not need the benefit may ignore it, donate it back, or allow it to recycle into the fund.
 
 That means E4H does not need a heavy means test to balance universality with practical need. The balance is intended to emerge organically:
 
 - people who need the benefit are more likely to claim;
 - people who do not need it are more likely to let it recycle;
-- unclaimed amounts return to the endowment;
+- unclaimed amounts return to the fund;
 - the universal right remains intact without forcing people to prove poverty or worthiness.
 
 ## Access challenge
@@ -232,7 +232,7 @@ This means:
 
 ## Philosophy in one paragraph
 
-Equity for Humanity exists to build a permanent, globally diversified public-benefit endowment whose returns give people a growing share of global prosperity. Its purpose is not to replace human work or ordinary public policy. Its purpose is to establish universal supplementary ownership: a compounding human floor funded by shared ownership of productive assets. Because AI is built on humanity’s accumulated intelligence, culture, language, labour, science, and creativity, humanity has a moral claim on some share of the prosperity AI helps create. If AI causes the economy to grow dramatically, humanity should not merely hope for redistribution after the fact. Humanity should hold a permanent ownership claim in the productive engine shaping its future.
+Equity for Humanity exists to build a permanent, globally diversified public-benefit fund whose returns give people a growing share of global prosperity. Its purpose is not to replace human work or ordinary public policy. Its purpose is to establish universal supplementary ownership: a compounding human floor funded by shared ownership of productive assets. Because AI is built on humanity’s accumulated intelligence, culture, language, labour, science, and creativity, humanity has a moral claim on some share of the prosperity AI helps create. If AI causes the economy to grow dramatically, humanity should not merely hope for redistribution after the fact. Humanity should hold a permanent ownership claim in the productive engine shaping its future.
 
 ## Working language to preserve
 

@@ -4,7 +4,7 @@
 
 ## Mission
 
-**Equity for Humanity is a proposed permanent public-benefit endowment designed to help every human being share in a growing portion of global prosperity through universal ownership.**
+**Equity for Humanity is a proposed permanent public-benefit fund designed to help every human being share in a growing portion of global prosperity through universal ownership.**
 
 Our community is humanity. Our benefit is universal.
 
@@ -22,7 +22,7 @@ This is not a replacement for work, purpose, creativity, public AI initiatives, 
 
 ## Core idea
 
-Equity for Humanity is a proposed public-benefit endowment for universal shared ownership.
+Equity for Humanity is a proposed public-benefit fund for universal shared ownership.
 
 For efficiency, the model focuses on one global fund: broad ownership of productive global assets, long-term compounding, and dynamic growth-linked distributions that let growth continue working for humanity over time.
 
@@ -41,7 +41,7 @@ Core principles:
 3. **Hyper-efficient** — low fees, low overhead, automation where appropriate, and minimal bureaucracy.
 4. **Equitable** — everyone can participate without proving poverty, worthiness, nationality, ideology, or productivity.
 5. **Self-sustaining** — the fund reinvests enough to grow over generations.
-6. **Self-recycling** — unclaimed or voluntarily returned benefits flow back into the endowment.
+6. **Self-recycling** — unclaimed or voluntarily returned benefits flow back into the fund.
 7. **Transparent** — public reporting, clear rules, audited finances, and visible dashboards.
 8. **Trustworthy** — legal, custody, governance, and privacy choices should be cautious before public fundraising.
 9. **Dignity-preserving** — no one must prove need to be included.
@@ -55,7 +55,7 @@ The mechanism is intentionally simple:
 
 - **Flexible contributions:** Accept cash, public securities, crypto, and other approved contributions, then steward or divest them under transparent rules.
 - **Global index simplicity:** Own productive global growth broadly, efficiently, and transparently rather than trying to pick winners.
-- **Dynamic growth-linked payout:** Target participant benefits dynamically: **3% for every 10% of average fund growth**, using a **5-year trailing average**. For example, 10% average growth implies a 3% payout, 20% implies a 6% payout, and zero or negative average growth implies no participant payout. Unclaimed benefits are recycled back into the endowment.
+- **Dynamic growth-linked payout:** Target participant benefits dynamically: **3% for every 10% of average fund growth**, using a **5-year trailing average**. For example, 10% average growth implies a 3% payout, 20% implies a 6% payout, and zero or negative average growth implies no participant payout. Unclaimed benefits are recycled back into the fund.
 
 The fund should prioritize compounding while allowing participants to share more when growth is strong. Participant distributions should be dynamic, rules-based, and smoothed over five years rather than tied to ad hoc decisions.
 
@@ -80,7 +80,7 @@ The ultimate goal is for every human being on the planet to have the ability and
 
 Universal by right. Opt-in by choice. Progressive by use. Self-recycling by design.
 
-Every verified human may claim their share. No one must prove need. Unclaimed benefits return to the endowment.
+Every verified human may claim their share. No one must prove need. Unclaimed benefits return to the fund.
 
 People who need the benefit are more likely to claim it. People who do not need it can let it recycle, donate it back, or contribute more. The system remains universal without heavy means-testing.
 
@@ -121,23 +121,23 @@ The dashboard should eventually make the fund understandable at a glance: contri
 
 ## Operating loop
 
-**Contribute. Connect. Claim. Compound.**
+**Connect. Contribute. Claim. Compound.**
 
-1. **Contribute:** Individuals, companies, foundations, AI entities, and community groups can contribute cash, public securities, crypto, and other approved contributions to grow the endowment.
-2. **Connect:** People and groups help others access Equity for Humanity through local initiatives and connector recognition.
-3. **Claim:** Verified humans can opt in and claim, recycle, or contribute according to their situation.
+1. **Connect:** Participants opt in to contribute, claim, recycle, or support the initiative according to their situation. People and groups help others access Equity for Humanity.
+2. **Contribute:** Individuals, companies, foundations, AI entities, and community groups can contribute cash, public securities, crypto, and other approved contributions to grow the fund.
+3. **Claim:** Verified humans can claim benefits, recycle them, or contribute them back. Verification protects unique-human access while avoiding unnecessary identity collection.
 4. **Compound:** Unclaimed and returned benefits recycle back into the fund, helping ownership grow over time. When shared prosperity grows faster, people share more; when growth slows, the fund protects the future.
 
-Contributions grow the fund, local initiatives expand access, verified participants claim, recycle, or contribute according to their situation, and compounding strengthens the next round.
+People connect first, then choose whether to contribute or claim. Contributions grow the fund, verified participants can claim benefits, and unclaimed benefits recycle and compound for the next round.
 
 ## App concept
 
 The Equity for Humanity app should make participation simple:
 
-1. Verify you are a unique human.
-2. Opt in to participate.
-3. Identify your connector if someone helped you join.
-4. Claim, recycle, contribute, view dashboard information, support community outreach, and see the fund’s reach and long-term impact grow over time.
+1. Connect to the initiative and opt in to contribute, claim, recycle, or support according to your situation.
+2. Contribute resources or identify your connector if someone helped you join.
+3. Verify you are human to claim benefits.
+4. Claim, recycle, contribute back, view dashboard information, support community outreach, and see the fund’s reach and long-term impact grow over time.
 
 ## Recognition and community
 
@@ -203,7 +203,7 @@ AI entities, including agents and AI-enabled companies, can support universal hu
 
 ## Early positioning
 
-Equity for Humanity appears to be a broad, simple way to support humanity through the AI transition: a public-benefit endowment, AI-native participation platform, verified human claiming, self-recycling benefits, grassroots support, and universal ownership.
+Equity for Humanity appears to be a broad, simple way to support humanity through the AI transition: a public-benefit fund, AI-native participation platform, verified human claiming, self-recycling benefits, grassroots support, and universal ownership.
 
 It is not yet a charity, donation offer, tax receipt promise, investment product, or legal conclusion. No public donation flow should open until the legal container, custody, tax, compliance, reporting, and governance questions are ready.
 
@@ -217,7 +217,7 @@ Future investment-arm tagline:
 
 > Invest for yourself. Contribute to humanity. Grow ownership for all.
 
-This should not be part of the first legal or operational step unless an experienced regulated investment partner is available. Launching an ETF, fund manager, robo-advisor, or investment platform creates securities-law, custody, compliance, audit, insurance, and fiduciary obligations. The first version should therefore use existing low-cost global index funds for the endowment and treat a dedicated ultra-low-cost investment arm as a later partnership or spinout.
+This should not be part of the first legal or operational step unless an experienced regulated investment partner is available. Launching an ETF, fund manager, robo-advisor, or investment platform creates securities-law, custody, compliance, audit, insurance, and fiduciary obligations. The first version should therefore use existing low-cost global index funds for the fund and treat a dedicated ultra-low-cost investment arm as a later partnership or spinout.
 
 Principle:
 
@@ -238,6 +238,6 @@ Near-term work:
 
 ## Bottom line
 
-Equity for Humanity is a simple, permanent, globally diversified ownership endowment for the AI transition. It focuses on one global fund, broad ownership of productive global assets, long-term compounding, dynamic growth-linked participant benefits, unique-human verification, transparent reporting, and grassroots support.
+Equity for Humanity is a simple, permanent, globally diversified ownership fund for the AI transition. It focuses on one global fund, broad ownership of productive global assets, long-term compounding, dynamic growth-linked participant benefits, unique-human verification, transparent reporting, and grassroots support.
 
 The mission is universal ownership for humanity — implemented gradually, transparently, efficiently, and with human accountability — so every human being can share in this generational AI transformation and all of humanity can benefit and flourish.

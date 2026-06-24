@@ -4,7 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Equity for Humanity — Universal ownership for the AI transition</title>
-  <meta name="description" content="A founding concept for a permanent public-benefit endowment that helps every human share in AI-era prosperity through universal supplementary ownership." />
+  <link rel="icon" type="image/svg+xml" href="assets/equity-for-humanity-logo.svg" />
+  <link rel="alternate icon" type="image/png" href="assets/equity-for-humanity-logo.png" />
+  <meta name="description" content="A founding concept for a permanent public-benefit fund that helps every human share in AI-era prosperity through universal supplementary ownership." />
   <style>
     :root{
       --ink:#173322;
@@ -94,10 +96,12 @@
     .muted{color:var(--muted)}
     .cycle-frame{margin-top:22px;padding:16px;border:1px solid #cbdcc5;border-radius:24px;background:linear-gradient(180deg,rgba(248,251,245,.82),rgba(255,255,255,.62))}
     .square-cycle{display:grid;grid-template-columns:1fr 36px 1fr;grid-template-rows:auto 36px auto;gap:10px;align-items:center}
-    .node{border:1px solid var(--line);background:var(--soft);border-radius:22px;padding:18px;min-height:118px}
-    .node b{display:block;font-size:18px;margin-bottom:4px}
+    .node{border:1px solid var(--line);background:var(--soft);border-radius:22px;padding:18px;min-height:104px}
+    .node-title{display:flex;align-items:center;gap:8px;margin-bottom:4px;font-size:18px}
+    .node-num{display:inline-flex;align-items:center;justify-content:center;width:1.65em;height:1.65em;border-radius:50%;background:white;border:1px solid var(--line);box-shadow:0 6px 16px rgba(23,51,34,.07);color:var(--green);font-weight:850;font-size:1em;line-height:1}
+    .node b{display:block;font-size:1em}
     .node p{margin:0;color:var(--muted);font-size:14px}
-    .contribute{grid-column:1;grid-row:1}.connect{grid-column:3;grid-row:1}.compound{grid-column:1;grid-row:3}.claim{grid-column:3;grid-row:3}
+    .connect{grid-column:1;grid-row:1}.contribute{grid-column:3;grid-row:1}.compound{grid-column:1;grid-row:3}.claim{grid-column:3;grid-row:3}
     .arrow{font-style:normal;color:var(--green);font-size:26px;font-weight:950;text-align:center}.right{grid-column:2;grid-row:1}.down{grid-column:3;grid-row:2;justify-self:center}.left{grid-column:2;grid-row:3}.up{grid-column:1;grid-row:2;justify-self:center}
     .feedback-note{margin-top:14px;padding:8px 4px;color:var(--muted);font-size:14px;text-align:center}
 
@@ -139,7 +143,7 @@
     .cycle-step:after{position:absolute;right:-20px;top:42%;color:var(--green);font-size:24px;font-weight:950;z-index:2;text-shadow:0 0 0 4px white}
     .cycle-step:not(:last-child):after{content:"→"}
     .cycle-step:last-child:after{content:"↻";right:-22px;top:38%;width:32px;height:32px;border-radius:50%;display:grid;place-items:center;background:#f4f8ef;border:1px solid #d7e5cf;font-size:22px;box-shadow:var(--soft-shadow)}
-    .step-num{width:34px;height:34px;border-radius:50%;display:grid;place-items:center;background:var(--soft);color:var(--green);font-weight:950;margin-bottom:12px}
+    .step-num{display:inline-flex;align-items:center;justify-content:center;width:1.65em;height:1.65em;border-radius:50%;background:var(--soft);border:1px solid var(--line);color:var(--green);font-size:1em;font-weight:850;margin-right:8px;line-height:1;vertical-align:middle}
 
     .tiers{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
     .tier{border-radius:18px;padding:14px 12px;background:white;border:1px solid var(--line);text-align:center;box-shadow:0 8px 22px rgba(23,51,34,.055);transition:transform .18s ease,box-shadow .18s ease}
@@ -173,7 +177,7 @@
       .links{display:none}.hero-grid,.split,.split.center{grid-template-columns:1fr}.grid,.grid.two,.faq{grid-template-columns:1fr 1fr}.cycle-large{grid-template-columns:1fr;gap:30px}.cycle-step:after{right:50%;top:auto;bottom:-24px;transform:translateX(50%);text-shadow:0 0 0 4px white}.cycle-step:not(:last-child):after{content:"↓"}.cycle-step:last-child:after{right:50%;top:auto;bottom:-28px;transform:translateX(50%)}.tiers{grid-template-columns:1fr 1fr}.hero{padding-top:58px}.stat-panel{grid-template-columns:1fr 1fr}
     }
     @media(max-width:640px){
-      .grid,.grid.two,.cycle-large,.tiers,.faq,.stat-panel,.dash-grid{grid-template-columns:1fr}h1{font-size:46px}.system-card,.quote{padding:22px}.bars{height:160px}.actions{flex-wrap:nowrap;gap:8px}.actions .button{flex:1;min-width:0;padding:0 10px;font-size:13px;line-height:1.1;text-align:center}.cycle-frame{padding:10px;border-radius:20px}.square-cycle{grid-template-columns:minmax(0,1fr) 24px minmax(0,1fr);grid-template-rows:auto 24px auto;gap:7px}.node{min-height:96px;padding:12px;border-radius:18px}.node b{font-size:15px}.node p{font-size:12px;line-height:1.25}.arrow{font-size:20px;transform:none}.feedback-note{font-size:12px;margin-top:10px;padding:8px 9px}
+      .grid,.grid.two,.cycle-large,.tiers,.faq,.stat-panel,.dash-grid{grid-template-columns:1fr}h1{font-size:46px}.system-card,.quote{padding:22px}.bars{height:160px}.actions{flex-wrap:nowrap;gap:8px}.actions .button{flex:1;min-width:0;padding:0 10px;font-size:13px;line-height:1.1;text-align:center}.cycle-frame{padding:10px;border-radius:20px}.square-cycle{grid-template-columns:minmax(0,1fr) 24px minmax(0,1fr);grid-template-rows:auto 24px auto;gap:7px}.node{min-height:96px;padding:12px;border-radius:18px}.node-title{font-size:15px}.node b{font-size:1em}.node p{font-size:12px;line-height:1.25}.arrow{font-size:20px;transform:none}.feedback-note{font-size:12px;margin-top:10px;padding:8px 9px}
     }
   </style>
 </head>
@@ -199,26 +203,26 @@
         <div class="eyebrow"><span></span>Founding public concept — draft v1.0</div>
         <p class="status-disclaimer"><strong>Status:</strong> Equity for Humanity is a founding public concept, not yet a registered charity, foundation, trust, securities offering, or investment product. The current goal is to invite collaborators, test the model, and explore legal and governance options.</p>
         <h1>Our community is <em>humanity</em>. Our benefit is <em>universal</em>.</h1>
-        <p class="lead">Equity for Humanity is a proposed permanent public-benefit endowment designed to help every human being share in a growing portion of global prosperity through universal ownership.</p>
+        <p class="lead">Equity for Humanity is a proposed permanent public-benefit fund designed to help every human being share in a growing portion of global prosperity through universal ownership.</p>
         <div class="actions">
           <a class="button" href="#mechanism">Explore the model</a>
           <a class="button secondary" href="#next">Shape what’s next</a>
         </div>
       </div>
 
-      <aside class="system-card" aria-label="Contribute Connect Claim Compound loop">
+      <aside class="system-card" aria-label="Connect Contribute Claim Compound loop">
         <h2>A self-improving cycle of shared ownership.</h2>
-        <p class="muted" style="margin:0">Each round grows the fund, expands access, and recycles unclaimed benefits back into long-term ownership.</p>
+        <p class="muted" style="margin:0">Each round connects people, grows the fund, supports verified claims, and recycles unclaimed benefits back into long-term ownership.</p>
         <div class="cycle-frame">
           <div class="square-cycle">
-            <div class="node contribute"><b>Contribute</b><p>Resources grow the endowment.</p></div>
+            <div class="node connect"><div class="node-title"><span class="node-num">1</span><b>Connect</b></div><p>Opt in to contribute and/or claim.</p></div>
             <i class="arrow right">→</i>
-            <div class="node connect"><b>Connect</b><p>Local initiatives expand access.</p></div>
+            <div class="node contribute"><div class="node-title"><span class="node-num">2</span><b>Contribute</b></div><p>Resources grow the fund.</p></div>
             <i class="arrow up">↑</i>
             <i class="arrow down">↓</i>
-            <div class="node compound"><b>Compound</b><p>Unclaimed benefits recycle.</p></div>
+            <div class="node claim"><div class="node-title"><span class="node-num">3</span><b>Claim</b></div><p>Verify you are human to claim benefits.</p></div>
             <i class="arrow left">←</i>
-            <div class="node claim"><b>Claim</b><p>Verified humans opt in.</p></div>
+            <div class="node compound"><div class="node-title"><span class="node-num">4</span><b>Compound</b></div><p>Unclaimed benefits grow the fund.</p></div>
           </div>
           <div class="feedback-note">Transparent results encourage future growth.</div>
         </div>
@@ -273,7 +277,7 @@
     <div class="wrap">
       <div class="kicker">Key elements</div>
       <h2>Designed to be universal without becoming bureaucratic.</h2>
-      <p class="section-lead">A public-benefit endowment only works if it earns trust: clear rules, low overhead, careful verification, and honest limits before public fundraising.</p>
+      <p class="section-lead">A public-benefit fund only works if it earns trust: clear rules, low overhead, careful verification, and honest limits before public fundraising.</p>
       <div class="grid">
         <div class="card"><h3>Global reach and individual choice</h3><p>The ultimate goal is for every human being on the planet to have the ability and option to participate. Opt-in participants can claim, recycle, or contribute according to their situation.</p></div>
         <div class="card"><h3>Organic growth</h3><p>The invitation can remain universal while real claiming grows with awareness, need, trust, verification, access, and benefit size. As contributions, compounding, and verification capacity grow, reach and support scale organically over time.</p></div>
@@ -287,7 +291,7 @@
 
   <section>
     <div class="wrap">
-      <div class="quote">Universal by right. Opt-in by choice. Progressive by use. Self-recycling by design.<small>Every verified human may claim their share. No one must prove need. Unclaimed benefits return to the endowment.</small></div>
+      <div class="quote">Universal by right. Opt-in by choice. Progressive by use. Self-recycling by design.<small>Every verified human may claim their share. No one must prove need. Unclaimed benefits return to the fund.</small></div>
     </div>
   </section>
 
@@ -295,12 +299,12 @@
     <div class="wrap">
       <div class="kicker">How it works</div>
       <h2>The reinforcing cycle</h2>
-      <p class="section-lead">Contributions grow the fund, local initiatives expand access, verified participants claim, recycle, or contribute according to their situation, and compounding strengthens the next round.</p>
+      <p class="section-lead">People connect first, then choose whether to contribute or claim. Contributions grow the fund, verified participants can claim benefits, and unclaimed benefits recycle and compound for the next round.</p>
       <div class="cycle-large">
-        <div class="cycle-step"><div class="step-num">1</div><h3>Contribute</h3><p class="muted">Individuals, companies, foundations, AI entities, and community groups can contribute cash, public securities, crypto, and other approved contributions to grow the endowment.</p></div>
-        <div class="cycle-step"><div class="step-num">2</div><h3>Connect</h3><p class="muted">People and groups help others access Equity for Humanity through local initiatives and connector recognition.</p></div>
-        <div class="cycle-step"><div class="step-num">3</div><h3>Claim</h3><p class="muted">Verified humans can opt in and claim, recycle, or contribute according to their situation.</p></div>
-        <div class="cycle-step"><div class="step-num">4</div><h3>Compound</h3><p class="muted">Unclaimed and returned benefits recycle back into the fund, helping ownership grow over time. When shared prosperity grows faster, people share more; when growth slows, the fund protects the future.</p></div>
+        <div class="cycle-step"><h3><span class="step-num">1</span> Connect</h3><p class="muted">Participants opt in to contribute, claim, recycle, or support the initiative according to their situation. People and groups help others access Equity for Humanity.</p></div>
+        <div class="cycle-step"><h3><span class="step-num">2</span> Contribute</h3><p class="muted">Individuals, companies, foundations, AI entities, and community groups can contribute cash, public securities, crypto, and other approved contributions to grow the fund.</p></div>
+        <div class="cycle-step"><h3><span class="step-num">3</span> Claim</h3><p class="muted">Verified humans can claim benefits, recycle them, or contribute them back. Verification protects unique-human access while avoiding unnecessary identity collection.</p></div>
+        <div class="cycle-step"><h3><span class="step-num">4</span> Compound</h3><p class="muted">Unclaimed and returned benefits recycle back into the fund, helping ownership grow over time. When shared prosperity grows faster, people share more; when growth slows, the fund protects the future.</p></div>
       </div>
     </div>
   </section>
@@ -336,8 +340,8 @@
       <h2>Plain answers for a first public draft.</h2>
       <div class="faq">
         <details><summary>Is this a charity?</summary><p>Not yet. The concept may become a charity, foundation, trust, nonprofit, sponsored project, or hybrid structure. The right path depends on legal advice, jurisdiction, and the first pilot.</p></details>
-        <details><summary>Is this universal basic income?</summary><p>No. It is closer to universal supplementary ownership: a small, growing, opt-in share of returns from a public-benefit endowment.</p></details>
-        <details><summary>Would wealthy people be eligible?</summary><p>The long-term aspiration is universal dignity and simple administration. People who do not need the benefit can ignore it, donate it back, contribute more, or let it recycle to the endowment.</p></details>
+        <details><summary>Is this universal basic income?</summary><p>No. It is closer to universal supplementary ownership: a small, growing, opt-in share of returns from a public-benefit fund.</p></details>
+        <details><summary>Would wealthy people be eligible?</summary><p>The long-term aspiration is universal dignity and simple administration. People who do not need the benefit can ignore it, donate it back, contribute more, or let it recycle to the fund.</p></details>
         <details><summary>Can people donate today?</summary><p>No public donation flow should open until the legal container, custody, tax, compliance, reporting, and governance questions are ready.</p></details>
         <details><summary>Can children participate?</summary><p>Children count. Families are trusted. Youth gain agency as they mature: guardian-managed for younger children, youth-managed where lawful for older teens, and self-managed for adults.</p></details>
         <details><summary>Could there be an investment arm later?</summary><p>Possibly later: a regulated investment arm could offer simple global index investing. Investors would keep their own returns; only fee surplus or voluntary transfers would support the foundation. Invest for yourself. Contribute to humanity. Grow ownership for all.</p></details>

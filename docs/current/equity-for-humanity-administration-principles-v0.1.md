@@ -8,7 +8,7 @@
 
 ## 1. North star
 
-Equity for Humanity exists to build a permanent public-benefit endowment so every human being can share in a growing portion of global prosperity.
+Equity for Humanity exists to build a permanent public-benefit fund so every human being can share in a growing portion of global prosperity.
 
 Administration will exist only to protect and strengthen that mission.
 
@@ -59,7 +59,7 @@ For trust, Equity for Humanity will use two visible buckets.
 
 ### Bucket A — Humanity Fund
 
-**Purpose:** The permanent public-benefit endowment for humanity.
+**Purpose:** The permanent public-benefit fund for humanity.
 
 Used for:
 
@@ -212,7 +212,7 @@ Early-stage ratios can be misleading because build, legal, governance, and proto
 | Concept and prototype | Report separately; no meaningful mature ratio yet |
 | Pilot stage | Aim for under 15–20% where possible |
 | Early operating institution | Aim for 10–15% |
-| Mature endowment | Aim for under 5% |
+| Mature fund | Aim for under 5% |
 | Large-scale aspiration | Stretch goal of 1–3% |
 
 Long-term principle:
